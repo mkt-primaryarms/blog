@@ -63,6 +63,10 @@ h1 {
     box-shadow: 0 0 12px rgba(0, 0, 0, .5);
 }
 
+img:hover {
+    opacity: 0.5;
+}
+
 /* End for Images */
 
 
@@ -326,14 +330,23 @@ h1 {
 
 }
 
+.card-body:hover {
+    opacity: 0.5;
+}
+
 .bright{
     margin-top: 3rem;
 
 }
 
-row-wrap{
+.row-wrap{
     display:flex;
     flex-wrap: wrap;
+}
+
+.shadow{
+    box-shadow: 10px 10px;
+   
 }
 
 
@@ -347,3 +360,12 @@ row-wrap{
 .columnRight{
     margin-top: 20%;
 }
+
+.vl {
+    border-left: 1px solid lightgray;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
+  }
