@@ -1,3 +1,6 @@
+body {
+    background-color: #ffffff;
+}
 
 
 .blog {
@@ -9,10 +12,6 @@
 h1 {
     font-weight: bold;
     text-align: center;
-
-}
-.graybackground {
-    background-color: rgb(247, 247, 247);
 
 }
 
@@ -60,7 +59,7 @@ h1 {
     border-style: solid;
     border-width: 3px;
     border-color: white;
-    box-shadow: 0 0 12px rgba(0, 0, 0, .5);
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.5);
 }
 
 img:hover {
@@ -84,7 +83,9 @@ img:hover {
     border-width: 3px;
     border-color: white;
     background-color: #ffffff;
-    box-shadow: 0 0 12px rgba(0, 0, 0, .5);
+    /* box-shadow: 0 0 12px rgba(0, 0, 0, .5); */
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.5);
+
 }
 
 .thumbnail.b {
@@ -240,10 +241,10 @@ img:hover {
         width: 90%;
     }
 
-    .sidenav {display: none;}
-    .sidenav a {display: none;}
-    .sidenav-left {display: none;}
-    .list1 {display: none;}
+    /* .sidenav {display: none;} */
+    /* .sidenav a {display: none;} */
+    /* .sidenav-left {display: none;} */
+    /* .list1 {display: none;} */
     .listL {display: none;}
 
 }
@@ -255,6 +256,7 @@ img:hover {
     background-color:white; /* Black */
     padding-top: 0px;
     margin:auto;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 12px;
     
  }
   
@@ -297,6 +299,7 @@ img:hover {
     position: sticky; /* Fixed Sidebar (stay in place on scroll) */
     top: 0%;
     padding-left: 15px;
+    width: 100%;
     
 }
 
@@ -358,7 +361,7 @@ img:hover {
 }
 
 .columnRight{
-    margin-top: 20%;
+    margin-top: 22%;
 }
 
 .vl {
@@ -369,3 +372,25 @@ img:hover {
     margin-left: -3px;
     top: 0;
   }
+
+
+
+  .img-fluid {
+       width: 100%;
+  }
+
+
+.blogLinks {
+    
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 12px;
+}
+
+
+footer {
+    padding:25px;
+    background-color: black;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 12px;
+    text-align: center;
+
+}
