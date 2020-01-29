@@ -66,6 +66,10 @@ img:hover {
     opacity: 0.5;
 }
 
+.img-fluid:hover {
+    opacity: 1;
+}
+
 /* End for Images */
 
 
@@ -280,6 +284,7 @@ img:hover {
  /* right side list */
 .list1{
     overflow-y: auto; /*Disable horizontal scroll*/
+    overflow-x: hidden;
     flex-direction: column;
     position: sticky; /* Fixed Sidebar (stay in place on scroll) */
     padding-left: 15px;
