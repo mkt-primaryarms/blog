@@ -310,7 +310,7 @@ img:hover {
     flex-direction: column;
     position: sticky; /* Fixed Sidebar (stay in place on scroll) */
     padding-left: 15px;
-    top: -20%;
+    top: -0%;
     width: 100%;
     z-index: 1;
     padding-bottom: 10%;
