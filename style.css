@@ -1,7 +1,15 @@
 body {
     background-color: #ffffff;
+    overflow-x: hidden;
 }
 
+/* .nopadding {
+
+    padding: 0 !important;
+ 
+    margin: 0 !important;
+ 
+ } */
 
 .blog {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -17,6 +25,7 @@ h1 {
 
 .blog p {
     font-size: 20px;
+    margin: auto;
 }
 
 .blog h2 {
@@ -207,6 +216,10 @@ img:hover {
 
 @media only screen and (max-width: 800px) {
 
+    html {
+        overflow-x: hidden;
+    }
+
     .blog {
         padding: 15px;
     }
@@ -238,7 +251,6 @@ img:hover {
     .btn.buy-now {
         font-size: 90%;
     }
-
     /* End CTA's */
 
     .table.b {
@@ -250,6 +262,16 @@ img:hover {
     /* .sidenav-left {display: none;} */
     /* .list1 {display: none;} */
     .listL {display: none;}
+
+    .blog.p {
+        width: 100%;
+        margin: auto;
+    }
+
+    /* .row {
+        margin-right: -15px;
+        margin-left: -15px;
+    } */
 
 }
 
