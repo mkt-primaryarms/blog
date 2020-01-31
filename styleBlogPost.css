@@ -1,6 +1,9 @@
-/* this is the css for the main blog landing page */
+/* this is the css for each specific blog post */
+
+
 html {
     overflow-x: hidden;
+    padding: 0px;
 }
 
 .blog {
@@ -260,7 +263,7 @@ img:hover {
 
     .blog.p {
         width: 100%;
-        margin: auto;
+        margin: 35%;
     }
 
     /* .row {
@@ -295,7 +298,7 @@ img:hover {
 }
 
 /* left side list */
-.listL {
+.listL{
     float: right;
     overflow-y: hidden; /*Disable horizontal scroll*/
     flex-direction: column;
@@ -326,11 +329,12 @@ img:hover {
 }
 
 
-.b {
+.b{
     width: 30rem;
     height: 25rem;
     margin: 2rem;
-    margin-left: 15px;    
+    margin-bottom: 2rem;
+    
 
 }
 
